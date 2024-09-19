@@ -1,50 +1,504 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="John Vincent E. Roda">
-    <meta name="description" content="My Website Portfolio">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="John Vincent E. Roda" />
+    <meta name="description" content="My Website Portfolio" />
     <title>Portfolio</title>
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/site.webmanifest">
-    <link rel="mask-icon" href="favicon/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body class="top">
-    <nav class="navbar">
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="favicon/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="favicon/site.webmanifest" />
+    <link
+      rel="mask-icon"
+      href="favicon/safari-pinned-tab.svg"
+      color="#5bbad5"
+    />
+    <meta name="msapplication-TileColor" content="#da532c" />
+    <meta name="theme-color" content="#ffffff" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
+    />
+  </head>
+  <body id="top">
+    <header>
+      <div class="container">
+        <nav class="navbar">
+          <div class="icons">
+            <a href="https://www.facebook.com/jayvee.roda.9" target="_blank"
+              ><i class="fa-brands fa-facebook fa-xl" style="color: #ffffff"></i
+            ></a>
+            <a href="https://www.instagram.com/jayve_e0725" target="_blank">
+              <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff"></i
+            ></a>
+            <a href="mailto:rodajohnvincent35@gmail.com"
+              ><i class="fa-brands fa-google fa-xl" style="color: #ffffff"></i
+            ></a>
+            <a
+              href="tel:+639361910685"
+              class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+            >
+              <i class="fa-solid fa-phone fa-xl" style="color: #ffffff"></i
+              >&plus;639361910685</a
+            >
+          </div>
+        </nav>
+      </div>
+      <div class="banner-text">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Jayvee</a>
+          <div class="row">
+            <div
+              class="col-7 d-flex align-items-center justify-content-center flex-column text-white text-center"
+              data-aos="fade-right"
+              data-aos-offset="300"
+              data-aos-easing="ease-in-sine"
+            >
+              <h1 class="fw-bold header-title">
+                Hello&comma; I am <br />John Vincent
+              </h1>
+              <h2 class="m-4">
+                Crafting Digital Dreams: From College <br />
+                Competitions to Professional Growth
+              </h2>
+              <a
+                href="/images/roda_cv.pdf"
+                download
+                class="btn btn-lg cv-file text-white"
+                >Download CV</a
+              >
+            </div>
+            <div
+              class="col-5"
+              data-aos="fade-left"
+              data-aos-anchor="#example-anchor"
+              data-aos-offset="500"
+              data-aos-duration="500"
+            >
+              <img src="images/jayvee-persona.png" alt="" class="mw-100" />
+            </div>
+          </div>
         </div>
-    </nav>
-    <div class="container">
-        <h1>Hello World!</h1>
-    </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-4GS1X130P2"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
+      </div>
+    </header>
 
-        gtag('config', 'G-4GS1X130P2');
-    </script>
+    <nav class="navbar navbar-expand-lg nav-menu sticky-top">
+      <div class="container">
+        <!-- Logo -->
+        <a class="navbar-brand" href="#">
+          <img
+            src="/images/jayvee-logo2.png"
+            alt="jayvee logo"
+            class="jayvee-logo"
+            width="90"
+          />
+        </a>
+
+        <!-- Toggle button for mobile view -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active text-white" aria-current="page" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#about_me">About Me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <main>
+      <section id="about_me">
+        <div class="container py-3">
+          <div class="row">
+            <div class="col-6" data-aos="fade-up-right">
+              <img
+                src="/images/jayvee-formal-attire.png"
+                alt="jayvee formal attire"
+              />
+            </div>
+            <div
+              class="col-6 d-flex align-items-center justify-content-center flex-column"
+              data-aos="fade-up-left"
+            >
+              <h2 class="h1 py-3">Who am <span class="me">I</span>&quest;</h2>
+              <p class="fs-5">
+                Hi, I'm John Vincent E. Roda, a passionate web developer and
+                freelancer with a proven track record of success in both
+                professional projects and college competitions. I specialize in
+                blending creativity with technical expertise to craft
+                exceptional digital experiences. Whether it's designing a
+                website or developing a complex application, I thrive on turning
+                ideas into reality. Let's collaborate and elevate your online
+                presence together.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="experience">
+        <div class="container">
+          <div class="row my-3">
+            <div class="col-8" data-aos="flip-left">
+              <div class="card">
+                <div class="container">
+                  <h2 class="h4">Experience</h2>
+                  <div class="row">
+                    <div class="col-6">
+                      <h3 class="h6">
+                        2023 Philippines National Competition Worldskills
+                        Philippines
+                      </h3>
+                      <p class="fst-italic">July 2022 - March 2023 <br /></p>
+                      <p class="fw-bold">
+                        Web Technologies (Fullstack Development)
+                      </p>
+                      <p>Role/s:</p>
+                      <ul>
+                        <li>
+                          Create as many modules as possible in a speed test.
+                        </li>
+                        <li>
+                          Enhance the integration between backend and frontend
+                          through API, utilizing MySQL as the database.
+                        </li>
+                        <li>
+                          Ensure that all projects are accurately identified in
+                          the descriptions before uploading them to the server.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-6">
+                      <h3 class="h6">Huawei ICT Competition</h3>
+                      <p class="fst-italic">
+                        September 2023 - December 2023<br />
+                      </p>
+                      <p class="fw-bold">Computing Track Category (Group)</p>
+                      <p>OpenEuler - Linux</p>
+                      <p>Role/s:</p>
+                      <ul>
+                        <li>
+                          Dive into comprehensive study on OpenEuler and prepare
+                          thoroughly for examinations related to it.
+                        </li>
+                        <li>
+                          Set up the virtual machine and learn how to use the
+                          command line interface.
+                        </li>
+                      </ul>
+                    </div>
+                    <hr class="w-75 mx-auto" />
+                    <div class="col-6">
+                      <h3 class="h6">Bislig Byteworks Inc.</h3>
+                      <p class="fst-italic">December 2023 - July 2024<br /></p>
+                      <p class="fw-bold">Lead Full Stack Developer</p>
+                      <p>Role/s:</p>
+                      <ul>
+                        <li>
+                          Focuses on leading a team while contributing to
+                          development.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-6">
+                      <h3 class="h6">Andres Soriano Colleges of Bislig</h3>
+                      <p class="fst-italic">
+                        August 2024 - November 2024<br />
+                      </p>
+                      <p class="fw-bold">On the Job Training (OJT)</p>
+                      <p>Role/s:</p>
+                      <ul>
+                        <li>Technical Support.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="col-4 d-flex align-items-center justify-content-center"
+              data-aos="flip-right"
+            >
+              <div class="card">
+                <div class="container">
+                  <h2 class="h4">Skills</h2>
+                  <p>
+                    HTML, CSS, Jquery, Design (PSD/Figma) to HTML, PHP, MySQL,
+                    Responsive Design, Git, SASS, Laravel, Javascript and
+                    Wordpress.
+                  </p>
+                  <hr />
+                  <h2 class="h4">Education</h2>
+                  <p>
+                    Andres Soriano Colleges of Bislig <strong>(ASCB)</strong>
+                  </p>
+                  <p>August 2020 - December 2023</p>
+                  <p>
+                    Bachelor of Science in Information Technology
+                    <strong>(BSIT)</strong>
+                  </p>
+                  <hr />
+                  <h2 class="h4">Certificate and Training</h2>
+                  <ul>
+                    <li>
+                      Web Development NClll - Passer (August 2022) Andres
+                      Soriano Colleges of Bislig
+                    </li>
+                    <li>
+                      Computer Systems Servicing (CSS) Institutional (September
+                      2023-October 2023) Andres Soriano Colleges of Bislig
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <hr class="w-75 mx-auto" />
+
+      <section id="my_portfolio">
+        <div class="container py-3">
+          <h2 class="h1 pb-4"><span class="me">My</span> Portfolio</h2>
+          <div class="row">
+            <div class="col-6">
+              <a href="https://genesys.asc-bislig.com/#/home" target="_blank">
+                <img
+                  src="/images/jayvee-portfolio-1.png"
+                  alt="jayvee-portfolio"
+                  class="img-fluid img-thumbnail"
+              /></a>
+            </div>
+            <div class="col-6">
+              <a
+                href="https://jayveeroda.github.io/bootstrap_responsive/"
+                target="_blank"
+              >
+                <img
+                  src="/images/jayvee-portfolio-2.png"
+                  alt="jayvee-portfolio"
+                  class="img-fluid img-thumbnail"
+              /></a>
+            </div>
+          </div>
+          <div class="container text-center">
+            <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
+              <div class="col">
+                <div class="p-3">
+                  <a
+                    data-fancybox="gallery"
+                    href="/images/jayvee-portfolio-3.png"
+                  >
+                    <img
+                      src="/images/jayvee-portfolio-3.png"
+                      alt="jayvee-portfolio"
+                      class="img-fluid img-thumbnail"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="col">
+                <div class="p-3">
+                  <a
+                    data-fancybox="gallery"
+                    href="/images/jayvee-portfolio-4.png"
+                  >
+                    <img
+                      src="/images/jayvee-portfolio-4.png"
+                      alt="jayvee-portfolio"
+                      class="img-fluid img-thumbnail"
+                  /></a>
+                </div>
+              </div>
+              <div class="col">
+                <div class="p-3">
+                  <a
+                    data-fancybox="gallery"
+                    href="/images/jayvee-portfolio-5.png"
+                  >
+                    <img
+                      src="/images/jayvee-portfolio-5.png"
+                      alt="jayvee-portfolio"
+                      class="img-fluid img-thumbnail"
+                  /></a>
+                </div>
+              </div>
+              <div class="col">
+                <div class="p-3">
+                  <a
+                    data-fancybox="gallery"
+                    href="/images/jayvee-portfolio-6.png"
+                  >
+                    <img
+                      src="/images/jayvee-portfolio-6.png"
+                      alt="jayvee-portfolio"
+                      class="img-fluid img-thumbnail"
+                  /></a>
+                </div>
+              </div>
+              <div class="col">
+                <div class="p-3">
+                  <a
+                    data-fancybox="gallery"
+                    href="/images/jayvee-portfolio-7.png"
+                  >
+                    <img
+                      src="/images/jayvee-portfolio-7.png"
+                      alt="jayvee-portfolio"
+                      class="img-fluid img-thumbnail"
+                  /></a>
+                </div>
+              </div>
+              <div class="col">
+                <div class="p-3">
+                  <a
+                    data-fancybox="gallery"
+                    href="/images/jayvee-portfolio-8.png"
+                  >
+                    <img
+                      src="/images/jayvee-portfolio-8.png"
+                      alt="jayvee-portfolio"
+                      class="img-fluid img-thumbnail"
+                  /></a>
+                </div>
+              </div>
+              <div class="col">
+                <div class="p-3">
+                  <a
+                    data-fancybox="gallery"
+                    href="/images/jayvee-portfolio-14.png"
+                  >
+                    <img
+                      src="/images/jayvee-portfolio-14.png"
+                      alt="jayvee-portfolio"
+                      class="img-fluid img-thumbnail"
+                  /></a>
+                </div>
+              </div>
+              <div class="col">
+                <div class="p-3">
+                  <a
+                    data-fancybox="gallery"
+                    href="/images/jayvee-portfolio-15.png"
+                  >
+                    <img
+                      src="/images/jayvee-portfolio-15.png"
+                      alt="jayvee-portfolio"
+                      class="img-fluid img-thumbnail"
+                  /></a>
+                </div>
+              </div>
+              <div class="col">
+                <div class="p-3">
+                  <a
+                    data-fancybox="gallery"
+                    href="/images/jayvee-portfolio-13.png"
+                  >
+                    <img
+                      src="/images/jayvee-portfolio-13.png"
+                      alt="jayvee-portfolio"
+                      class="img-fluid img-thumbnail"
+                  /></a>
+                </div>
+              </div>
+            </div>
+            <a href="" class="text-center btn btn-primary">See More..</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.80463899831!2d126.35618834380988!3d8.181692893028382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fdbb413b7159b1%3A0x24ff24d7cb23a8a7!2sSweet%20Alexandra%20Food%20Products!5e1!3m2!1sen!2sph!4v1726751300124!5m2!1sen!2sph"
+      height="450"
+      style="border: 0; width: 100%"
+      allowfullscreen=""
+      loading="lazy"
+      referrerpolicy="no-referrer-when-downgrade"
+    ></iframe>
+
+    <a href="#top" class="totop">
+      <i class="fa-solid fa-arrow-up" style="color: #ffffff"></i>
+      <span>To Top</span>
+    </a>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-4GS1X130P2"
+    ></script>
+    <script src="/js/script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
-        nl_lang = "en";
-        nl_pos = "bl";
-        nl_compact = "1";
-        nl_dir = "/nagishli/nl-files/";
+      AOS.init();
+      Fancybox.bind("[data-fancybox]", {});
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-4GS1X130P2");
     </script>
-    <script src="/nagishli/nagishli.js" charset="utf-8" defer></script>
-</body>
+  </body>
 </html>

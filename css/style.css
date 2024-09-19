@@ -1,5 +1,74 @@
-.top nav {
-  background-color: #fef7f7;
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+* {
+  font-family: "Inter", sans-serif;
+  font-style: normal;
 }
 
-/*# sourceMappingURL=style.css.map */
+header {
+  background-image: url("/images/jayvee-banner.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+}
+header .icons a {
+  margin-right: 15px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+header .banner-text {
+  height: 93vh;
+}
+header .header-title {
+  font-size: 4rem;
+}
+header .cv-file {
+  background: #ff6600;
+  margin-bottom: 15%;
+}
+header .cv-file:hover {
+  background: #3366cc;
+}
+
+body {
+  background-color: #f5f5f5;
+}
+body .nav-menu {
+  background-color: #3366cc;
+}
+body .me {
+  color: #ff6600;
+}
+
+.totop {
+  background-color: #ff6600;
+  font-size: 30px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  padding: 6px 0 0;
+  opacity: 1;
+  z-index: 5000;
+  text-align: center;
+  display: none;
+  text-decoration: none !important;
+  color: #fff;
+  line-height: 1;
+  width: 66px;
+  height: 66px;
+  transition: all 0.25s ease-in-out;
+}
+.totop:hover {
+  opacity: 0.8;
+  color: #fff;
+}
+.totop i {
+  font-size: 30px;
+  line-height: 1;
+  display: block;
+}
+.totop span {
+  display: block;
+  font-size: 10px;
+  text-transform: uppercase;
+}/*# sourceMappingURL=style.css.map */
