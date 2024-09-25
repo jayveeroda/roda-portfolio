@@ -2,6 +2,7 @@
 * {
   font-family: "Inter", sans-serif;
   font-style: normal;
+  scroll-padding-top: 50px;
 }
 
 header {
@@ -38,6 +39,58 @@ body .nav-menu {
 }
 body .me {
   color: #ff6600;
+}
+
+#hire_me {
+  background-color: #3366cc;
+  height: 40vh;
+  color: white;
+}
+#hire_me a {
+  background-color: #ff6600;
+  margin-top: 15px;
+}
+
+@keyframes moveGroup {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-480px);
+  }
+}
+.move-image-container {
+  position: relative;
+  width: 100%;
+  margin: 10% 0 10% 0;
+  height: 100px;
+  overflow: hidden;
+}
+.move-image-container .image-group {
+  display: flex;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 200%;
+  animation: moveGroup 10s linear infinite;
+}
+.move-image-container .image-group img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+footer {
+  height: 500px;
+  width: 100%;
+}
+footer .contact {
+  width: 40%;
+}
+footer .mail {
+  font-size: small;
 }
 
 .totop {

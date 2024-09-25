@@ -1,7 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+$image-width: 100px;
+$image-height: 100px;
+$image-margin: 20px;
+$num-images: 4;
+$animation-duration: 10s;
+$total-width: ($image-width + $image-margin) * $num-images;
+
 * {
   font-family: "Inter", sans-serif;
   font-style: normal;
+  scroll-padding-top: 50px;
 }
 
 header {
@@ -45,6 +54,64 @@ body {
   }
 }
 
+#hire_me {
+  background-color: #3366cc;
+  height: 40vh;
+  color: white;
+
+  a {
+    background-color: #ff6600;
+    margin-top: 15px;
+  }
+}
+
+@keyframes moveGroup {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-$total-width);
+  }
+}
+
+.move-image-container {
+  position: relative;
+  width: 100%;
+  margin: 10% 0 10% 0;
+  height: $image-height;
+
+  overflow: hidden;
+
+  .image-group {
+    display: flex;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 200%; // Double the width to accommodate two sets of images
+    animation: moveGroup $animation-duration linear infinite;
+
+    img {
+      width: $image-width;
+      height: $image-height;
+      margin-right: $image-margin;
+      object-fit: contain;
+    }
+  }
+}
+
+footer {
+  height: 500px;
+  width: 100%;
+  // background: #ff6600;
+  .contact {
+    width: 40%;
+  }
+
+  .mail {
+    font-size: small;
+  }
+}
+
 .totop {
   background-color: #ff6600;
   font-size: 30px;
@@ -80,9 +147,3 @@ body {
     text-transform: uppercase;
   }
 }
-
-// .navbar-brand {
-//   img {
-//     width: 35px;
-//   }
-// }
