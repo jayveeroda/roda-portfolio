@@ -69,9 +69,11 @@ header .cv-file:hover {
   }
 }
 
-.main-menu .nav-link {
-  border-bottom: 1px solid white;
-  text-align: center;
+@media (max-width: 992px) {
+  .main-menu .nav-link {
+    border-bottom: 1px solid white;
+    text-align: center;
+  }
 }
 
 body {

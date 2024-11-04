@@ -84,10 +84,14 @@ header {
 }
 
 .main-menu {
-  .nav-link {
-    border-bottom: 1px solid white;
-    text-align: center;
+  
+  @media (max-width: 992px) {
+    .nav-link {
+      border-bottom: 1px solid white;
+      text-align: center;
+    }
   }
+
 }
 
 body {
