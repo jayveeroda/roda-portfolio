@@ -1,0 +1,7 @@
+Add profile.png and your project screenshots here.
+Expected filenames:
+profile.png
+project-sweetee.jpg
+project-kuwae.jpg
+project-club.jpg
+project-shopify.jpg

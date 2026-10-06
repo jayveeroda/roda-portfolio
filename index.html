@@ -1,598 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="John Vincent E. Roda" />
-    <meta name="description" content="My Website Portfolio" />
-    <title>Portfolio</title>
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="favicon/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="favicon/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="favicon/favicon-16x16.png"
-    />
-    <link rel="manifest" href="favicon/site.webmanifest" />
-    <link
-      rel="mask-icon"
-      href="favicon/safari-pinned-tab.svg"
-      color="#5bbad5"
-    />
-    <meta name="msapplication-TileColor" content="#da532c" />
-    <meta name="theme-color" content="#ffffff" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"
-    />
-  </head>
-  <body id="top">
-    <header id="home">
-      <div class="container">
-        <nav class="navbar">
-          <div class="icons">
-            <a href="https://www.facebook.com/jayvee.roda.9" target="_blank"
-              ><i class="fa-brands fa-facebook fa-xl" style="color: #ffffff"></i
-            ></a>
-            <a href="https://www.instagram.com/jayve_e0725" target="_blank">
-              <i class="fa-brands fa-instagram fa-xl" style="color: #ffffff"></i
-            ></a>
-            <a href="mailto:rodajohnvincent35@gmail.com"
-              ><i class="fa-brands fa-google fa-xl" style="color: #ffffff"></i
-            ></a>
-            <a
-              href="tel:+639361910685"
-              class="link-light link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
-            >
-              <i class="fa-solid fa-phone fa-xl" style="color: #ffffff"></i
-              >&plus;639361910685</a
-            >
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="John Vincent Roda - Web Developer & E-commerce Specialist" />
+  <title>John Vincent Roda | Web Developer & E-commerce Specialist</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header" id="top">
+    <div class="container nav-wrap">
+      <a class="brand" href="#home" aria-label="John Roda home">
+        <span class="brand-mark">JR</span>
+        <span>
+          <strong>John Vincent Roda</strong>
+          <small>Web Developer & E-commerce Specialist</small>
+        </span>
+      </a>
+
+      <button class="nav-toggle" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="main-nav" aria-label="Primary navigation">
+        <a href="#home" class="active">Home</a>
+        <a href="#services">Services</a>
+        <a href="#work">Work</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <a class="btn btn-primary nav-cta" href="#contact">Let's Work Together</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-decor hero-decor-one"></div>
+      <div class="hero-decor hero-decor-two"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">HELLO, I'M JOHN VINCENT RODA</p>
+          <h1>I build websites and<br>
+            e-commerce solutions<br>
+            <span>that help businesses grow.</span>
+          </h1>
+          <p class="hero-text">
+            I'm a web developer specializing in WordPress, WooCommerce,
+            Shopify, and custom PHP/MySQL development. From idea to launch
+            and beyond, I build solutions that work.
+          </p>
+
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#work">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+            <a class="btn btn-outline" href="#contact">Start a Project <i class="fa-solid fa-arrow-right"></i></a>
           </div>
-        </nav>
-      </div>
-      <div class="banner-text">
-        <div class="container-fluid">
-          <div class="row">
-            <div
-              class="col-lg-7 col-md-12 d-flex align-items-center justify-content-center flex-column text-white text-center"
-              data-aos="fade-right"
-              data-aos-offset="300"
-              data-aos-easing="ease-in-sine"
-            >
-              <h1 class="fw-bold header-title">
-                Hello&comma; I am <br />John Vincent
-              </h1>
-              <h2 class="m-4">
-                Crafting Digital Dreams: From College <br />
-                Competitions to Professional Growth
-              </h2>
-              <a
-                href="images/roda_cv.pdf"
-                download
-                class="btn btn-lg cv-file text-white"
-                >Download CV</a
-              >
-            </div>
-            <div
-              class="col-lg-5 col-md-12 d-none d-lg-block d-xl-block"
-              data-aos="fade-left"
-              data-aos-anchor="#example-anchor"
-              data-aos-offset="500"
-              data-aos-duration="500"
-            >
-              <img src="images/jayvee-persona.png" alt="" class="mw-100" />
-            </div>
+
+          <div class="hero-trust">
+            <div><i class="fa-solid fa-code"></i><span><strong>Clean Code</strong><small>Quality & Maintainable</small></span></div>
+            <div><i class="fa-regular fa-clock"></i><span><strong>Reliable</strong><small>On-time & Responsive</small></span></div>
+            <div><i class="fa-solid fa-briefcase"></i><span><strong>Solutions Focused</strong><small>Business Oriented</small></span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal reveal-delay">
+          <div class="portrait-ring">
+            <img src="images/profile.jpg" alt="John Roda profile photo" width="2697" height="3084" fetchpriority="high" decoding="sync" />
+          </div>
+          <div class="availability-card">
+            <span class="status-dot"></span>
+            <strong>Available for<br>Freelance Projects</strong>
+            <small>Let's build something<br>great together!</small>
           </div>
         </div>
       </div>
-    </header>
+    </section>
 
-    <nav class="navbar navbar-expand-lg nav-menu sticky-top shadow main-menu">
+    <section class="section" id="services">
       <div class="container">
-        <a class="navbar-brand" href="#">
-          <img
-            src="images/jayvee-logo2.png"
-            alt="jayvee logo"
-            class="jayvee-logo"
-            width="90"
-          />
+        <div class="section-heading center reveal">
+          <p class="eyebrow">WHAT I DO</p>
+          <h2>Services I Offer</h2>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card reveal">
+            <div class="icon-box"><i class="fa-brands fa-wordpress"></i></div>
+            <h3>WordPress Development</h3>
+            <p>Custom WordPress websites with Elementor and custom functionality.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="icon-box">Woo</div>
+            <h3>WooCommerce Development</h3>
+            <p>Custom online stores, product setups, cart/checkout customization and more.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="icon-box"><i class="fa-brands fa-shopify"></i></div>
+            <h3>Shopify Development</h3>
+            <p>Store setup, customization, apps, Shopify B2B, and bulk data management.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="icon-box"><i class="fa-solid fa-code"></i></div>
+            <h3>Custom PHP / MySQL Development</h3>
+            <p>Web applications, systems, and custom features built with native PHP & MySQL.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="icon-box"><i class="fa-solid fa-screwdriver-wrench"></i></div>
+            <h3>Website Maintenance & Support</h3>
+            <p>Updates, backups, security, troubleshooting, and ongoing website care.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <div class="icon-box"><i class="fa-regular fa-envelope"></i></div>
+            <h3>Integrations</h3>
+            <p>Payment gateways, email marketing, Cloudflare, and third-party services.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="work">
+      <div class="container">
+        <div class="section-heading row reveal">
+          <div>
+            <p class="eyebrow">FEATURED WORK</p>
+            <h2>Some of My Recent Projects</h2>
+          </div>
+          <a class="text-link" href="all-projects.html">View All Projects <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+
+        <div class="projects-grid">
+          <article class="project-card reveal">
+            <a class="project-media project-link" href="https://notabledesign.co/" target="_blank" rel="noopener noreferrer" aria-label="Visit Notable Design Co. website">
+              <img src="images/projects/notable-design.png" alt="Notable Design Co. website homepage" width="1440" height="960" loading="lazy" decoding="async">
+              <span class="project-view"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Visit website</span>
+            </a>
+            <div class="project-body">
+              <h3>Notable Design Co.</h3>
+              <p>A polished agency presence that brings services, capabilities, and creative work into a confident client journey.</p>
+              <div class="tags"><span>Creative Agency</span><span>Web Design</span><span>Development</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <a class="project-media project-link" href="https://wineeducationcouncil.org/" target="_blank" rel="noopener noreferrer" aria-label="Visit Wine Education Council website">
+              <img src="images/projects/wine-education-council.png" alt="Wine Education Council website homepage" width="1440" height="960" loading="lazy" decoding="async">
+              <span class="project-view"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Visit website</span>
+            </a>
+            <div class="project-body">
+              <h3>Wine Education Council</h3>
+              <p>An education-focused platform that helps visitors discover wine programs, resources, and opportunities to learn.</p>
+              <div class="tags"><span>Education</span><span>Content Platform</span><span>Responsive</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <a class="project-media project-link" href="https://holygrailwine.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Holy Grail Wine website">
+              <img src="images/projects/holy-grail-wine.png" alt="Holy Grail Wine website homepage" width="1440" height="960" loading="lazy" decoding="async">
+              <span class="project-view"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Visit website</span>
+            </a>
+            <div class="project-body">
+              <h3>Holy Grail Wine</h3>
+              <p>A premium wine experience pairing rich brand storytelling with a clear, conversion-ready customer journey.</p>
+              <div class="tags"><span>Wine</span><span>Brand Experience</span><span>E-commerce</span></div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <a class="project-media project-link" href="https://xtremeautosportsscv.com/" target="_blank" rel="noopener noreferrer" aria-label="Visit Xtreme Auto Sports website">
+              <img src="images/projects/xtreme-auto-sports.png" alt="Xtreme Auto Sports website homepage" width="1440" height="960" loading="lazy" decoding="async">
+              <span class="project-view"><i class="fa-solid fa-arrow-up-right-from-square" aria-hidden="true"></i> Visit website</span>
+            </a>
+            <div class="project-body">
+              <h3>Xtreme Auto Sports</h3>
+              <p>A high-energy automotive website that showcases services and gives local drivers a direct path to connect.</p>
+              <div class="tags"><span>Automotive</span><span>Service Business</span><span>Responsive</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section split-section" id="about">
+      <div class="container split-grid">
+        <div class="about-card reveal">
+          <div class="about-copy">
+            <p class="eyebrow">ABOUT ME</p>
+            <h2>A little about me</h2>
+            <p>
+              I'm a web developer and e-commerce specialist with experience building websites,
+              online stores, and custom web applications. I enjoy turning ideas into functional,
+              user-friendly solutions that help businesses succeed.
+            </p>
+
+            <ul class="check-list">
+              <li><i class="fa-solid fa-circle-check"></i> 2+ years of experience</li>
+              <li><i class="fa-solid fa-circle-check"></i> Detail-oriented and reliable</li>
+              <li><i class="fa-solid fa-circle-check"></i> Strong communication</li>
+              <li><i class="fa-solid fa-circle-check"></i> Committed to client success</li>
+            </ul>
+
+            <div class="signature">John Vincent Roda</div>
+          </div>
+
+          <div class="about-photo">
+            <img src="images/profile.jpg" alt="John Roda" width="2697" height="3084" loading="lazy" decoding="async">
+            <div class="photo-note">
+              <strong>Based in the Philippines</strong>
+              <small>Available for remote work and flexible projects.</small>
+            </div>
+          </div>
+        </div>
+
+        <div class="skills-card reveal" id="skills">
+          <p class="eyebrow">TOOLS & TECHNOLOGIES</p>
+          <h2>Tools I Use</h2>
+
+          <div class="tools-grid">
+            <div><i class="fa-brands fa-wordpress"></i><span>WordPress</span></div>
+            <div><strong>Woo</strong><span>WooCommerce</span></div>
+            <div><i class="fa-brands fa-shopify"></i><span>Shopify</span></div>
+            <div><i class="fa-brands fa-elementor"></i><span>Elementor</span></div>
+            <div><i class="fa-brands fa-php"></i><span>PHP</span></div>
+            <div><i class="fa-solid fa-database"></i><span>MySQL</span></div>
+            <div><i class="fa-brands fa-js"></i><span>JavaScript</span></div>
+            <div><i class="fa-brands fa-html5"></i><span>HTML5</span></div>
+            <div><i class="fa-brands fa-css3-alt"></i><span>CSS3</span></div>
+            <div><i class="fa-brands fa-bootstrap"></i><span>Bootstrap</span></div>
+            <div><i class="fa-brands fa-wix"></i><span>Wix</span></div>
+            <div><i class="fa-brands fa-squarespace"></i><span>Squarespace</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-heading center reveal">
+          <p class="eyebrow">EXPERIENCE</p>
+          <h2>Professional Experience</h2>
+        </div>
+
+        <div class="timeline reveal">
+          <div class="timeline-item timeline-item-featured">
+            <div class="timeline-date">2024 &hyphen; September 2026</div>
+            <div class="timeline-dot"></div>
+            <div>
+              <h3>Team Lead</h3>
+              <strong>Notable Design Co.</strong>
+              <ul class="achievement-list">
+                <li>Led day-to-day delivery across client website projects, aligning design, development, priorities, and timelines around clear business goals.</li>
+                <li>Directed hands-on work across WordPress, WooCommerce, Shopify, and custom solutions, turning client requirements into polished, responsive experiences.</li>
+                <li>Raised delivery quality through design and code reviews, structured QA, proactive troubleshooting, and focused support for team members.</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="timeline-date">Previous</div>
+            <div class="timeline-dot"></div>
+            <div>
+              <h3>Lead Full Stack Developer</h3>
+              <strong>Bislig Byteworks Inc.</strong>
+              <p>Supported project implementation across front-end and back-end tasks, coordinating development work and
+                delivery.</p>
+          </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contact">
+      <div class="container">
+        <div class="cta-card reveal">
+          <div class="cta-icon"><i class="fa-regular fa-paper-plane"></i></div>
+          <div>
+            <h2>Have a project in mind?</h2>
+            <p>I'm available for selected freelance projects. Whether you need a new website, online store, or custom development—let's work together.</p>
+          </div>
+          <a class="btn btn-primary" href="mailto:rodajohnvincent35@gmail.com">Start a Project <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <a class="brand footer-brand" href="#home">
+          <span class="brand-mark">JR</span>
+          <span><strong>John Vincent Roda</strong><small>Web Developer & E-commerce Specialist</small></span>
         </a>
+        <p>Building websites and digital solutions that make an impact.</p>
+      </div>
 
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="#"
-                >Home</a
-              >
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#about_me">About Me</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#my_portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link text-white" href="#contact">Contact</a>
-            </li>
-          </ul>
+      <div>
+        <h4>Quick Links</h4>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#services">Services</a>
+          <a href="#work">Work</a>
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact">Contact</a>
         </div>
       </div>
-    </nav>
 
-    <main>
-      <section id="about_me">
-        <div class="container py-3">
-          <div class="row">
-            <div class="col-lg-6 col-md-12 text-center" data-aos="fade-up">
-              <img
-                src="images/jayvee-formal-attire.png"
-                alt="jayvee formal attire"
-                class="img-fluid"
-              />
-            </div>
-            <div
-              class="col-lg-6 col-md-12 d-flex align-items-center justify-content-center flex-column"
-              data-aos="fade-up"
-            >
-              <h2 class="h1 py-3">Who am <span class="me">I</span>&quest;</h2>
-              <p class="fs-5">
-                Hi, I'm John Vincent E. Roda, a passionate web developer and
-                freelancer with a proven track record of success in both
-                professional projects and college competitions. I specialize in
-                blending creativity with technical expertise to craft
-                exceptional digital experiences. Whether it's designing a
-                website or developing a complex application, I thrive on turning
-                ideas into reality. Let's collaborate and elevate your online
-                presence together.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section id="experience">
-        <div class="container">
-          <div class="row my-3">
-            <div class="col-lg-8 col-md-12 py-2" data-aos="flip-left">
-              <div class="card p-2">
-                <div class="container">
-                  <h2 class="h4 py-3">Experience</h2>
-                  <div class="row">
-                    <div class="col-lg-6 col-md-12">
-                      <h3 class="h6">
-                        2023 Philippines National Competition Worldskills
-                        Philippines
-                      </h3>
-                      <p class="fst-italic">July 2022 - March 2023 <br /></p>
-                      <p class="fw-bold">
-                        Web Technologies (Fullstack Development)
-                      </p>
-                      <p>Role/s:</p>
-                      <ul>
-                        <li>
-                          Create as many modules as possible in a speed test.
-                        </li>
-                        <li>
-                          Enhance the integration between backend and frontend
-                          through API, utilizing MySQL as the database.
-                        </li>
-                        <li>
-                          Ensure that all projects are accurately identified in
-                          the descriptions before uploading them to the server.
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                      <h3 class="h6">Huawei ICT Competition</h3>
-                      <p class="fst-italic">
-                        September 2023 - December 2023<br />
-                      </p>
-                      <p class="fw-bold">Computing Track Category (Group)</p>
-                      <p>OpenEuler - Linux</p>
-                      <p>Role/s:</p>
-                      <ul>
-                        <li>
-                          Dive into comprehensive study on OpenEuler and prepare
-                          thoroughly for examinations related to it.
-                        </li>
-                        <li>
-                          Set up the virtual machine and learn how to use the
-                          command line interface.
-                        </li>
-                      </ul>
-                    </div>
-                    <hr class="w-75 mx-auto" />
-                    <div class="col-lg-6 col-md-12">
-                      <h3 class="h6">Bislig Byteworks Inc.</h3>
-                      <p class="fst-italic">December 2023 - July 2024<br /></p>
-                      <p class="fw-bold">Lead Full Stack Developer</p>
-                      <p>Role/s:</p>
-                      <ul>
-                        <li>
-                          Focuses on leading a team while contributing to
-                          development.
-                        </li>
-                      </ul>
-                    </div>
-                    <div class="col-lg-6 col-md-12">
-                      <h3 class="h6">Andres Soriano Colleges of Bislig</h3>
-                      <p class="fst-italic">
-                        August 2024 - November 2024<br />
-                      </p>
-                      <p class="fw-bold">On the Job Training (OJT)</p>
-                      <p>Role/s:</p>
-                      <ul>
-                        <li>Technical Support.</li>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div
-              class="col-lg-4 col-md-12 d-flex align-items-center justify-content-center"
-              data-aos="flip-right"
-            >
-              <div class="card p-2">
-                <div class="container">
-                  <h2 class="h4 py-3">Skills</h2>
-                  <p>
-                    HTML, CSS, Jquery, Design (PSD/Figma) to HTML, PHP, MySQL,
-                    Responsive Design, Git, SASS, Laravel, Javascript and
-                    Wordpress.
-                  </p>
-                  <hr />
-                  <h2 class="h4 pb-3">Education</h2>
-                  <p>
-                    Andres Soriano Colleges of Bislig <strong>(ASCB)</strong>
-                  </p>
-                  <p>August 2020 - December 2023</p>
-                  <p>
-                    Bachelor of Science in Information Technology
-                    <strong>(BSIT)</strong>
-                  </p>
-                  <hr />
-                  <h2 class="h4 pb-3">Certificate and Training</h2>
-                  <ul>
-                    <li>
-                      Web Development NClll - Passer (August 2022) Andres
-                      Soriano Colleges of Bislig
-                    </li>
-                    <li>
-                      Computer Systems Servicing (CSS) Institutional (September
-                      2023-October 2023) Andres Soriano Colleges of Bislig
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section
-        id="hire_me"
-        class="d-flex align-items-center justify-content-center flex-column shadow my-5"
-      >
-        <h2 class="h1">I am Available for Freelance</h2>
-        <a
-          href="#contact"
-          class="btn btn-lg link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
-          >Hire Me!</a
-        >
-      </section>
-
-      <section id="my_portfolio">
-        <div class="container py-3">
-          <h2 class="h1 pb-4"><span class="me">My</span> Portfolio</h2>
-          <div class="row text-center">
-            <div class="col-6">
-              <a href="https://genesys.asc-bislig.com/#/home" target="_blank">
-                <img
-                  src="images/jayvee-portfolio-1.png"
-                  alt="jayvee-portfolio"
-                  class="img-fluid img-thumbnail"
-              /></a>
-            </div>
-            <div class="col-6">
-              <a
-                href="https://jayveeroda.github.io/bootstrap_responsive/"
-                target="_blank"
-              >
-                <img
-                  src="images/jayvee-portfolio-2.png"
-                  alt="jayvee-portfolio"
-                  class="img-fluid img-thumbnail"
-              /></a>
-            </div>
-          </div>
-          <div class="container text-center">
-            <div class="row row-cols-2 row-cols-lg-3 g-2 g-lg-3">
-              <div class="col">
-                <div class="p-3">
-                  <a
-                    data-fancybox="gallery"
-                    href="images/jayvee-portfolio-3.png"
-                  >
-                    <img
-                      src="images/jayvee-portfolio-3.png"
-                      alt="jayvee-portfolio"
-                      class="img-fluid img-thumbnail"
-                    />
-                  </a>
-                </div>
-              </div>
-              <div class="col">
-                <div class="p-3">
-                  <a
-                    data-fancybox="gallery"
-                    href="images/jayvee-portfolio-4.png"
-                  >
-                    <img
-                      src="images/jayvee-portfolio-4.png"
-                      alt="jayvee-portfolio"
-                      class="img-fluid img-thumbnail"
-                  /></a>
-                </div>
-              </div>
-              <div class="col">
-                <div class="p-3">
-                  <a
-                    data-fancybox="gallery"
-                    href="images/jayvee-portfolio-5.png"
-                  >
-                    <img
-                      src="images/jayvee-portfolio-5.png"
-                      alt="jayvee-portfolio"
-                      class="img-fluid img-thumbnail"
-                  /></a>
-                </div>
-              </div>
-              <div class="col">
-                <div class="p-3">
-                  <a
-                    data-fancybox="gallery"
-                    href="images/jayvee-portfolio-6.png"
-                  >
-                    <img
-                      src="images/jayvee-portfolio-6.png"
-                      alt="jayvee-portfolio"
-                      class="img-fluid img-thumbnail"
-                  /></a>
-                </div>
-              </div>
-              <div class="col">
-                <div class="p-3">
-                  <a
-                    data-fancybox="gallery"
-                    href="images/jayvee-portfolio-7.png"
-                  >
-                    <img
-                      src="images/jayvee-portfolio-7.png"
-                      alt="jayvee-portfolio"
-                      class="img-fluid img-thumbnail"
-                  /></a>
-                </div>
-              </div>
-              <div class="col">
-                <div class="p-3">
-                  <a
-                    data-fancybox="gallery"
-                    href="images/jayvee-portfolio-8.png"
-                  >
-                    <img
-                      src="images/jayvee-portfolio-8.png"
-                      alt="jayvee-portfolio"
-                      class="img-fluid img-thumbnail"
-                  /></a>
-                </div>
-              </div>
-              <div class="col">
-                <div class="p-3">
-                  <a
-                    data-fancybox="gallery"
-                    href="images/jayvee-portfolio-14.png"
-                  >
-                    <img
-                      src="images/jayvee-portfolio-14.png"
-                      alt="jayvee-portfolio"
-                      class="img-fluid img-thumbnail"
-                  /></a>
-                </div>
-              </div>
-              <div class="col">
-                <div class="p-3">
-                  <a
-                    data-fancybox="gallery"
-                    href="images/jayvee-portfolio-15.png"
-                  >
-                    <img
-                      src="images/jayvee-portfolio-15.png"
-                      alt="jayvee-portfolio"
-                      class="img-fluid img-thumbnail"
-                  /></a>
-                </div>
-              </div>
-              <div class="col">
-                <div class="p-3">
-                  <a
-                    data-fancybox="gallery"
-                    href="images/jayvee-portfolio-13.png"
-                  >
-                    <img
-                      src="images/jayvee-portfolio-13.png"
-                      alt="jayvee-portfolio"
-                      class="img-fluid img-thumbnail"
-                  /></a>
-                </div>
-              </div>
-            </div>
-            <!-- <a href="" class="text-center btn btn-primary">See More..</a> -->
-          </div>
-        </div>
-      </section>
-
-      <section class="move-image-container py-5">
-        <div class="image-group">
-          <img src="images/js-logo.png" alt="image-move" class="img-fluid" />
-          <img src="images/wp-logo.png" alt="image-move" class="img-fluid" />
-          <img src="images/css-logo.png" alt="image-move" class="img-fluid" />
-          <img src="images/html-logo.png" alt="image-move" class="img-fluid" />
-          <img src="images/php-logo.png" alt="image-move" class="img-fluid" />
-          <img
-            src="images/laravel-logo.png"
-            alt="image-move"
-            class="img-fluid"
-          />
-          <img src="images/js-logo.png" alt="image-move" class="img-fluid" />
-          <img src="images/wp-logo.png" alt="image-move" class="img-fluid" />
-          <img src="images/css-logo.png" alt="image-move" class="img-fluid" />
-          <img src="images/html-logo.png" alt="image-move" class="img-fluid" />
-          <img src="images/php-logo.png" alt="image-move" class="img-fluid" />
-          <img
-            src="images/laravel-logo.png"
-            alt="image-move"
-            class="img-fluid"
-          />
-          <img src="images/js-logo.png" alt="image-move" class="img-fluid" />
-          <img src="images/wp-logo.png" alt="image-move" class="img-fluid" />
-          <img src="images/css-logo.png" alt="image-move" class="img-fluid" />
-          <img src="images/html-logo.png" alt="image-move" class="img-fluid" />
-          <img src="images/php-logo.png" alt="image-move" class="img-fluid" />
-          <img
-            src="images/laravel-logo.png"
-            alt="image-move"
-            class="img-fluid"
-          />
-        </div>
-      </section>
-    </main>
-
-    <footer class="mt-3">
-      <div class="container-fluid">
-        <div class="row">
-          <div class="col-lg-7 col-md-12 my-2">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3919.80463899831!2d126.35618834380988!3d8.181692893028382!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x32fdbb413b7159b1%3A0x24ff24d7cb23a8a7!2sSweet%20Alexandra%20Food%20Products!5e1!3m2!1sen!2sph!4v1726751300124!5m2!1sen!2sph"
-              height="250"
-              style="border: 0; width: 100%"
-              allowfullscreen=""
-              loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
-              class="gmap"
-            ></iframe>
-          </div>
-          <div class="col-lg-5 col-md-12 my-2" id="contact">
-            <div class="card contact-holder p-3">
-              <div class="container-fluid">
-                <h2 class="h3 get-in-touch text-center">Get in Touch</h2>
-                <p>
-                  <i class="fa-solid fa-house"></i>&colon;&nbsp;P-2 Mangagoy,
-                  Bislig City Surigao del Sur
-                </p>
-                <p>
-                  <i class="fa-solid fa-phone"></i
-                  >&colon;&nbsp;&plus;639361910685
-                </p>
-                <p class="text-wrap pb-2">
-                  <i class="fa-solid fa-envelope"></i>&colon;&nbsp;
-                  <span class="mail">rodajohnvincent35@gmail.com</span>
-                </p>
-
-                <hr />
-
-                <div class="d-flex align-items-center justify-content-evenly">
-                  <a
-                    href="https://www.facebook.com/jayvee.roda.9"
-                    target="_blank"
-                    ><i class="fa-brands fa-facebook fa-xl"></i
-                  ></a>
-                  <a
-                    href="https://www.instagram.com/jayve_e0725"
-                    target="_blank"
-                  >
-                    <i class="fa-brands fa-instagram fa-xl"></i
-                  ></a>
-                  <a href="mailto:rodajohnvincent35@gmail.com"
-                    ><i class="fa-brands fa-google fa-xl"></i
-                  ></a>
-                  <a href="tel:+639361910685">
-                    <i class="fa-solid fa-phone fa-xl"></i
-                  ></a>
-                </div>
-              </div>
-            </div>
-          </div>
+      <div>
+        <h4>Connect</h4>
+        <div class="footer-links">
+          <a href="mailto:rodajohnvincent35@gmail.com"><i class="fa-regular fa-envelope"></i> rodajohnvincent35@gmail.com</a>
+          <a href="https://www.linkedin.com/in/john-vincent-roda-3a0679291/"><i class="fa-brands fa-linkedin"></i> LinkedIn</a>
         </div>
       </div>
-      <div class="foot_nav w-100">&copy; Jayvee | Portfolio 2024</div>
-    </footer>
 
-    <a href="#top" class="totop">
-      <i class="fa-solid fa-arrow-up" style="color: #ffffff"></i>
-      <span>To Top</span>
-    </a>
+      <div>
+        <h4>Let's Work Together</h4>
+        <p>I'm currently available for freelance projects and collaborations.</p>
+        <a class="btn btn-outline btn-small" href="mailto:rodajohnvincent35@gmail.com">Hire Me</a>
+      </div>
+    </div>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-      crossorigin="anonymous"
-    ></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-4GS1X130P2"
-    ></script>
-    <script src="js/script.js"></script>
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>
-      AOS.init();
-      Fancybox.bind("[data-fancybox]", {});
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+    <div class="container copyright">
+      © <span id="year"></span> John Roda. All rights reserved.
+    </div>
+  </footer>
 
-      gtag("config", "G-4GS1X130P2");
-    </script>
-  </body>
+  <button class="back-to-top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
 </html>
