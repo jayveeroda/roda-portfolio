@@ -219,7 +219,7 @@ button, input, textarea { font: inherit; }
 .portrait-ring img {
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  object-fit: contain;
   object-position: center top;
   image-rendering: auto;
 }
@@ -395,13 +395,15 @@ button, input, textarea { font: inherit; }
 .check-list li { margin: 7px 0; font-size: 13px; }
 .check-list i { color: var(--blue); margin-right: 8px; }
 .signature { font-family: cursive; font-size: 30px; color: #263750; margin-top: 16px; }
+
 .about-photo { position: relative; }
+
 .about-photo img {
   width: 100%;
   height: 320px;
   border-radius: 14px;
   background: linear-gradient(#f8e9df,#eed4c5);
-  object-fit: cover;
+  object-fit: contain;
   object-position: center top;
   image-rendering: auto;
 }
