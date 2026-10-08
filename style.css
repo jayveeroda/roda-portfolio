@@ -132,6 +132,15 @@ button, input, textarea { font: inherit; }
 }
 .btn-outline:hover { background: rgba(255,255,255,.08); }
 .btn-small { min-height: 42px; padding: 0 18px; }
+.hero-actions .btn-primary {
+  background: #f08a4e;
+  color: #21100a;
+  box-shadow: none;
+}
+.hero-actions .btn-primary:hover {
+  background: #ff9f68;
+  box-shadow: none;
+}
 
 /* Hero */
 .hero {
