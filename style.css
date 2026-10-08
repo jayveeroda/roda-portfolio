@@ -422,7 +422,7 @@ button, input, textarea { font: inherit; }
 .photo-note small { display: block; margin-top: 5px; font-size: 10px; }
 .tools-grid {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   gap: 14px;
   margin-top: 24px;
 }
