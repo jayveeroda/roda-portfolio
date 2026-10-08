@@ -120,11 +120,14 @@ button, input, textarea { font: inherit; }
 }
 .btn:hover { transform: translateY(-2px); }
 .btn-primary {
-  background: linear-gradient(135deg, #b94a16, #872d08);
-  color: var(--white);
-  box-shadow: 0 10px 24px rgba(110, 37, 7, .24);
+  background: #f08a4e;
+  color: #21100a;
+  box-shadow: none;
 }
-.btn-primary:hover { box-shadow: 0 14px 30px rgba(110, 37, 7, .32); }
+.btn-primary:hover {
+  background: #ff9f68;
+  box-shadow: none;
+}
 .btn-outline {
   border: 1px solid rgba(255,255,255,.7);
   color: var(--white);
@@ -132,15 +135,6 @@ button, input, textarea { font: inherit; }
 }
 .btn-outline:hover { background: rgba(255,255,255,.08); }
 .btn-small { min-height: 42px; padding: 0 18px; }
-.hero-actions .btn-primary {
-  background: #f08a4e;
-  color: #21100a;
-  box-shadow: none;
-}
-.hero-actions .btn-primary:hover {
-  background: #ff9f68;
-  box-shadow: none;
-}
 
 /* Hero */
 .hero {
