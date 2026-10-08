@@ -13,13 +13,17 @@
   --shadow: 0 12px 35px rgba(86, 34, 12, 0.11);
   --radius: 16px;
   --container: 1440px;
+  --anchor-offset: 96px;
 }
 
 * {
   box-sizing: border-box;
 }
 
-html { scroll-behavior: smooth; }
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--anchor-offset);
+}
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
@@ -556,6 +560,7 @@ button, input, textarea { font: inherit; }
 }
 
 @media (max-width: 900px) {
+  :root { --anchor-offset: 86px; }
   .nav-wrap { min-height: 70px; }
   .nav-toggle {
     margin-left: auto;
