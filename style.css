@@ -187,8 +187,9 @@ button, input, textarea { font: inherit; }
 .hero-identity {
   position: absolute;
   z-index: 3;
+  top: clamp(420px, 58vh, 540px);
   right: 7%;
-  bottom: 40px;
+  bottom: auto;
   max-width: 45%;
   text-align: left;
 }
@@ -546,6 +547,7 @@ button, input, textarea { font: inherit; }
   .hero-visual { min-height: 650px; border-right: 0; border-bottom: 1px solid rgba(17, 19, 15, .22); }
   .hero-word { margin-top: 48px; font-size: clamp(110px, 24vw, 190px); }
   .portrait-card { width: min(310px, 48%); }
+  .hero-identity { top: auto; bottom: 70px; }
   .hero-copy { min-height: 560px; padding: 70px 9%; }
   .career-stats-grid { grid-template-columns: repeat(2, 1fr); }
   .career-stats-grid > div:nth-child(2) { border-right: 0; }
