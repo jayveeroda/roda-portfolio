@@ -282,9 +282,9 @@ button, input, textarea { font: inherit; }
   counter-increment: service;
   min-height: 150px;
   display: grid;
-  grid-template-columns: 72px minmax(260px, .8fr) 1fr 80px;
+  grid-template-columns: 40px 64px minmax(280px, .8fr) minmax(260px, 1fr);
   align-items: center;
-  gap: 22px;
+  gap: 18px;
   padding: 30px 14px;
   border-bottom: 1px solid var(--line);
   transition: background .25s ease;
@@ -303,7 +303,7 @@ button, input, textarea { font: inherit; }
   height: 56px;
   display: grid;
   place-items: center;
-  justify-self: end;
+  justify-self: start;
   color: var(--lime);
   border: 1px solid var(--line-strong);
   font-size: 20px;
@@ -555,8 +555,8 @@ button, input, textarea { font: inherit; }
   .section > .container,
   .split-section > .container,
   .experience-section > .container { padding-inline: 28px; }
-  .service-card { grid-template-columns: 55px 1fr 70px; }
-  .service-card p { grid-column: 2 / 4; }
+  .service-card { grid-template-columns: 40px 56px 1fr; }
+  .service-card p { grid-column: 3; }
   #work > .container { grid-template-columns: 1fr; gap: 20px; }
   #work .section-heading { position: static; }
   .projects-grid { gap: 52px; }
@@ -585,7 +585,8 @@ button, input, textarea { font: inherit; }
 
   .section-heading.row,
   .projects-toolbar { align-items: flex-start; flex-direction: column; }
-  .service-card { grid-template-columns: 44px 1fr 50px; gap: 12px; padding-inline: 0; }
+  .service-card { grid-template-columns: 30px 46px 1fr; gap: 10px; padding-inline: 0; }
+  .service-card p { grid-column: 3; }
   .service-card h3 { font-size: 20px; }
   .service-card p { font-size: 12px; }
   .icon-box { width: 46px; height: 46px; }
