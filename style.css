@@ -323,7 +323,7 @@ button, input, textarea { font: inherit; }
 #work .text-link { margin-top: 34px; }
 .projects-grid { display: grid; gap: 72px; }
 .project-card { min-width: 0; border-bottom: 1px solid var(--line); padding-bottom: 44px; }
-.project-media { position: relative; height: auto; aspect-ratio: 16 / 10; overflow: hidden; background: var(--ink-raised); }
+.project-media { position: relative; display: block; width: 100%; height: auto; aspect-ratio: 16 / 10; overflow: hidden; background: var(--ink-raised); }
 .project-media img { width: 100%; height: 100%; object-fit: cover; object-position: top center; transition: transform .45s ease; }
 .project-card:hover .project-media img,
 .portfolio-project:hover .project-media img { transform: scale(1.025); }
